@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "auxence_addons",
+  "version": "1.0.0",
+  "name": "Auxence Addons",
+  "authors": [
+    "picci, MCreator"
+  ],
+  "contact": {
+    "homepage": "https://mcreator.net",
+    "sources": ""
+  },
+  "license": "Academic Free License v3.0",
+  "accessWidener": "auxence_addons.accesswidener",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.mcreator.auxenceaddons.AuxenceAddonsMod"
+    ],
+    "client": [
+      "net.mcreator.auxenceaddons.ClientInit"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "mixins": [
+    "auxence_addons.mixins.json"
+  ]
+}

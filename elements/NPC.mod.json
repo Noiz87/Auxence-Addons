@@ -1,0 +1,11 @@
+{
+  "_fv": 39,
+  "_type": "tab",
+  "definition": {
+    "name": "NPC",
+    "icon": {
+      "value": "Items.SPAWN_EGG#52"
+    },
+    "showSearch": false
+  }
+}

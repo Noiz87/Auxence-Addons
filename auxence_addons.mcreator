@@ -1,0 +1,245 @@
+{
+  "mod_elements": [
+    {
+      "name": "AuxenceItemtab",
+      "type": "tab",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "auxence_itemtab",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Auxence Item"
+    },
+    {
+      "name": "AuxenceMobtab",
+      "type": "tab",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "auxence_mobtab",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Auxence Boss"
+    },
+    {
+      "name": "GomGom",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gom_gom",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/auxence_addons/models/item/gom_gom.json",
+          "src/main/java/net/mcreator/auxenceaddons/item/GomGomItem.java"
+        ]
+      },
+      "path": "~/Auxence Item"
+    },
+    {
+      "name": "RedeiPirati",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redei_pirati",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/auxence_addons/advancements/redei_pirati.json"
+        ]
+      },
+      "path": "~/Auxence Item"
+    },
+    {
+      "name": "Guardia",
+      "type": "livingentity",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "guardia",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/auxenceaddons/client/renderer/GuardiaRenderer.java",
+          "src/main/resources/assets/auxence_addons/models/item/guardia_spawn_egg.json",
+          "src/main/java/net/mcreator/auxenceaddons/entity/GuardiaEntity.java"
+        ]
+      },
+      "path": "~/NPC"
+    },
+    {
+      "name": "NPC",
+      "type": "tab",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "npc",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/NPC"
+    },
+    {
+      "name": "Golemdiroccia",
+      "type": "animatedentity",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golemdiroccia",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/auxenceaddons/entity/GolemdirocciaEntity.java",
+          "src/main/java/net/mcreator/auxenceaddons/entity/model/GolemdirocciaModel.java",
+          "src/main/resources/assets/auxence_addons/models/item/golemdiroccia_spawn_egg.json",
+          "src/main/java/net/mcreator/auxenceaddons/client/renderer/GolemdirocciaRenderer.java"
+        ]
+      },
+      "path": "~/Auxence Boss"
+    },
+    {
+      "name": "Vendor",
+      "type": "livingentity",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vendor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/auxence_addons/models/item/vendor_spawn_egg.json",
+          "src/main/java/net/mcreator/auxenceaddons/client/renderer/VendorRenderer.java",
+          "src/main/java/net/mcreator/auxenceaddons/entity/VendorEntity.java"
+        ]
+      },
+      "path": "~/NPC"
+    },
+    {
+      "name": "JacksparrowChat",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jacksparrow_chat",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/auxenceaddons/procedures/JacksparrowChatProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/NPC"
+    },
+    {
+      "name": "Jacksparrow",
+      "type": "livingentity",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jacksparrow",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/auxenceaddons/entity/JacksparrowEntity.java",
+          "src/main/java/net/mcreator/auxenceaddons/client/renderer/JacksparrowRenderer.java",
+          "src/main/resources/assets/auxence_addons/models/item/jacksparrow_spawn_egg.json"
+        ]
+      },
+      "path": "~/NPC"
+    },
+    {
+      "name": "Vicinoguardia",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vicinoguardia",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/auxenceaddons/procedures/VicinoguardiaProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/NPC"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "it_it": {
+      "entity.auxence_addons.guardia": "Guardia",
+      "itemGroup.auxence_addons.npc": "NPC",
+      "item.auxence_addons.gom_gom": "Gom Gom",
+      "npc.msg.jack": "benvenuto/a in Auxence!",
+      "item.auxence_addons.golemdiroccia_spawn_egg": "Golem di Roccia Spawn Egg",
+      "item.auxence_addons.jacksparrow_spawn_egg": "Jacksparrow Spawn Egg",
+      "entity.auxence_addons.jacksparrow": "Jacksparrow",
+      "entity.auxence_addons.vendor": "Vendor",
+      "advancements.redei_pirati.descr": "Hai trovato il Frutto del Mare Gom Gom",
+      "advancements.redei_pirati.title": "Diventerò il Re dei Pirati",
+      "item.auxence_addons.vendor_spawn_egg": "Vendor Spawn Egg",
+      "itemGroup.auxence_addons.auxence_mobtab": "Auxence Mob",
+      "item.auxence_addons.guardia_spawn_egg": "Uovo di Guardia",
+      "entity.auxence_addons.golemdiroccia": "Golem di Roccia",
+      "itemGroup.auxence_addons.auxence_itemtab": "Oggetti Auxence"
+    },
+    "en_us": {
+      "entity.auxence_addons.guardia": "Guardia",
+      "itemGroup.auxence_addons.npc": "NPC",
+      "item.auxence_addons.gom_gom": "Gom Gom",
+      "npc.msg.jack": "welcome in Auxence!",
+      "item.auxence_addons.golemdiroccia_spawn_egg": "Golem di Roccia Spawn Egg",
+      "item.auxence_addons.jacksparrow_spawn_egg": "Jacksparrow Spawn Egg",
+      "entity.auxence_addons.jacksparrow": "Jacksparrow",
+      "entity.auxence_addons.vendor": "Vendor",
+      "advancements.redei_pirati.descr": "Hai trovato il Frutto del Mare Gom Gom",
+      "advancements.redei_pirati.title": "Diventerò il Re dei Pirati",
+      "item.auxence_addons.vendor_spawn_egg": "Vendor Spawn Egg",
+      "itemGroup.auxence_addons.auxence_mobtab": "Auxence Mob",
+      "item.auxence_addons.guardia_spawn_egg": "Guardia Spawn Egg",
+      "entity.auxence_addons.golemdiroccia": "Golem di Roccia",
+      "itemGroup.auxence_addons.auxence_itemtab": "Auxence Item"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Auxence Boss",
+        "children": []
+      },
+      {
+        "name": "Auxence Item",
+        "children": []
+      },
+      {
+        "name": "NPC",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "auxence_addons",
+    "modName": "Auxence Addons",
+    "version": "1.0.0",
+    "author": "picci, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "portinglib",
+      "geckolib"
+    ],
+    "currentGenerator": "fabric-1.19.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.auxenceaddons",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300110610
+}
