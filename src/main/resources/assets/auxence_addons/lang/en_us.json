@@ -1,6 +1,7 @@
 {
   "entity.auxence_addons.guardia": "Guardia",
   "itemGroup.auxence_addons.npc": "NPC",
+  "item.auxence_addons.coiniron": "Iron coin",
   "item.auxence_addons.gom_gom": "Gom Gom",
   "npc.msg.jack": "welcome in Auxence!",
   "item.auxence_addons.golemdiroccia_spawn_egg": "Golem di Roccia Spawn Egg",
@@ -13,5 +14,6 @@
   "itemGroup.auxence_addons.auxence_mobtab": "Auxence Mob",
   "item.auxence_addons.guardia_spawn_egg": "Guardia Spawn Egg",
   "entity.auxence_addons.golemdiroccia": "Golem di Roccia",
-  "itemGroup.auxence_addons.auxence_itemtab": "Auxence Item"
+  "itemGroup.auxence_addons.auxence_itemtab": "Auxence Item",
+  "item.auxence_addons.coincopper": "Copper coin"
 }

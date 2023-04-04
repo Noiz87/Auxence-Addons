@@ -1,0 +1,16 @@
+{
+  "group": "coin",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:copper_ingot"
+    }
+  },
+  "result": {
+    "item": "auxence_addons:coincopper",
+    "count": 9
+  }
+}

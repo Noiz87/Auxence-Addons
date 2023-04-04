@@ -10,6 +10,8 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.core.Registry;
 
 import net.mcreator.auxenceaddons.item.GomGomItem;
+import net.mcreator.auxenceaddons.item.CoinironItem;
+import net.mcreator.auxenceaddons.item.CoincopperItem;
 import net.mcreator.auxenceaddons.AuxenceAddonsMod;
 
 public class AuxenceAddonsModItems {
@@ -18,6 +20,8 @@ public class AuxenceAddonsModItems {
 	public static Item GOLEMDIROCCIA_SPAWN_EGG;
 	public static Item VENDOR_SPAWN_EGG;
 	public static Item JACKSPARROW_SPAWN_EGG;
+	public static Item COINCOPPER;
+	public static Item COINIRON;
 
 	public static void load() {
 		GUARDIA_SPAWN_EGG = Registry.register(Registry.ITEM, new ResourceLocation(AuxenceAddonsMod.MODID, "guardia_spawn_egg"),
@@ -28,5 +32,7 @@ public class AuxenceAddonsModItems {
 		VENDOR_SPAWN_EGG = Registry.register(Registry.ITEM, new ResourceLocation(AuxenceAddonsMod.MODID, "vendor_spawn_egg"), new SpawnEggItem(AuxenceAddonsModEntities.VENDOR, -1, -1, new Item.Properties().tab(AuxenceAddonsModTabs.TAB_NPC)));
 		JACKSPARROW_SPAWN_EGG = Registry.register(Registry.ITEM, new ResourceLocation(AuxenceAddonsMod.MODID, "jacksparrow_spawn_egg"),
 				new SpawnEggItem(AuxenceAddonsModEntities.JACKSPARROW, -16763905, -13369600, new Item.Properties().tab(AuxenceAddonsModTabs.TAB_NPC)));
+		COINCOPPER = Registry.register(Registry.ITEM, new ResourceLocation(AuxenceAddonsMod.MODID, "coincopper"), new CoincopperItem());
+		COINIRON = Registry.register(Registry.ITEM, new ResourceLocation(AuxenceAddonsMod.MODID, "coiniron"), new CoinironItem());
 	}
 }

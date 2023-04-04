@@ -163,6 +163,64 @@
         "dependencies": []
       },
       "path": "~/NPC"
+    },
+    {
+      "name": "Coincopper",
+      "type": "item",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coincopper",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/auxence_addons/models/item/coincopper.json",
+          "src/main/java/net/mcreator/auxenceaddons/item/CoincopperItem.java"
+        ]
+      },
+      "path": "~/Auxence Item"
+    },
+    {
+      "name": "Coincopperrep",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coincopperrep",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/auxence_addons/recipes/coppercoinrecipe.json"
+        ]
+      },
+      "path": "~/Auxence Item"
+    },
+    {
+      "name": "Coiniron",
+      "type": "item",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coiniron",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/auxenceaddons/item/CoinironItem.java",
+          "src/main/resources/assets/auxence_addons/models/item/coiniron.json"
+        ]
+      },
+      "path": "~/Auxence Item"
+    },
+    {
+      "name": "Coinironrep",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coinironrep",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/auxence_addons/recipes/coinironrep.json"
+        ]
+      },
+      "path": "~/Auxence Item"
     }
   ],
   "variable_elements": [],
@@ -171,6 +229,7 @@
     "it_it": {
       "entity.auxence_addons.guardia": "Guardia",
       "itemGroup.auxence_addons.npc": "NPC",
+      "item.auxence_addons.coiniron": "Moneta di ferro",
       "item.auxence_addons.gom_gom": "Gom Gom",
       "npc.msg.jack": "benvenuto/a in Auxence!",
       "item.auxence_addons.golemdiroccia_spawn_egg": "Golem di Roccia Spawn Egg",
@@ -183,11 +242,13 @@
       "itemGroup.auxence_addons.auxence_mobtab": "Auxence Mob",
       "item.auxence_addons.guardia_spawn_egg": "Uovo di Guardia",
       "entity.auxence_addons.golemdiroccia": "Golem di Roccia",
-      "itemGroup.auxence_addons.auxence_itemtab": "Oggetti Auxence"
+      "itemGroup.auxence_addons.auxence_itemtab": "Oggetti Auxence",
+      "item.auxence_addons.coincopper": "Moneta di Rame"
     },
     "en_us": {
       "entity.auxence_addons.guardia": "Guardia",
       "itemGroup.auxence_addons.npc": "NPC",
+      "item.auxence_addons.coiniron": "Iron coin",
       "item.auxence_addons.gom_gom": "Gom Gom",
       "npc.msg.jack": "welcome in Auxence!",
       "item.auxence_addons.golemdiroccia_spawn_egg": "Golem di Roccia Spawn Egg",
@@ -200,7 +261,8 @@
       "itemGroup.auxence_addons.auxence_mobtab": "Auxence Mob",
       "item.auxence_addons.guardia_spawn_egg": "Guardia Spawn Egg",
       "entity.auxence_addons.golemdiroccia": "Golem di Roccia",
-      "itemGroup.auxence_addons.auxence_itemtab": "Auxence Item"
+      "itemGroup.auxence_addons.auxence_itemtab": "Auxence Item",
+      "item.auxence_addons.coincopper": "Copper coin"
     }
   },
   "foldersRoot": {
