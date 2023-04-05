@@ -4,7 +4,7 @@
   "definition": {
     "mobName": "Vendor",
     "mobLabel": "",
-    "mobModelName": "Biped",
+    "mobModelName": "Modelgirl",
     "mobModelTexture": "girl-shop-keeper.png",
     "mobModelGlowTexture": "",
     "solidBoundingBox": {
