@@ -12,8 +12,8 @@ import net.mcreator.auxenceaddons.init.AuxenceAddonsModTabs;
 
 import java.util.List;
 
-public class CoincopperItem extends Item {
-	public CoincopperItem() {
+public class CoinemeraldItem extends Item {
+	public CoinemeraldItem() {
 		super(new Item.Properties().tab(AuxenceAddonsModTabs.TAB_AUXENCE_ITEMTAB).stacksTo(64).rarity(Rarity.COMMON));
 	}
 
@@ -25,6 +25,6 @@ public class CoincopperItem extends Item {
 	@Override
 	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
-		list.add(Component.literal("A copper coin"));
+		list.add(Component.literal("An emerald coin"));
 	}
 }

@@ -1,0 +1,16 @@
+{
+  "group": "coin",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:emerald"
+    }
+  },
+  "result": {
+    "item": "auxence_addons:coinemerald",
+    "count": 9
+  }
+}

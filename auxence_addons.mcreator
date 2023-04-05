@@ -221,6 +221,93 @@
         ]
       },
       "path": "~/Auxence Item"
+    },
+    {
+      "name": "Coinemerald",
+      "type": "item",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coinemerald",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/auxence_addons/models/item/coinemerald.json",
+          "src/main/java/net/mcreator/auxenceaddons/item/CoinemeraldItem.java"
+        ]
+      },
+      "path": "~/Auxence Item"
+    },
+    {
+      "name": "Coinemeraldrep",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coinemeraldrep",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/auxence_addons/recipes/coinemeraldrep.json"
+        ]
+      },
+      "path": "~/Auxence Item"
+    },
+    {
+      "name": "Coingold",
+      "type": "item",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coingold",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/auxence_addons/models/item/coingold.json",
+          "src/main/java/net/mcreator/auxenceaddons/item/CoingoldItem.java"
+        ]
+      },
+      "path": "~/Auxence Item"
+    },
+    {
+      "name": "Coingoldrep",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coingoldrep",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/auxence_addons/recipes/coingoldrep.json"
+        ]
+      },
+      "path": "~/Auxence Item"
+    },
+    {
+      "name": "Coindiamond",
+      "type": "item",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coindiamond",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/auxenceaddons/item/CoindiamondItem.java",
+          "src/main/resources/assets/auxence_addons/models/item/coindiamond.json"
+        ]
+      },
+      "path": "~/Auxence Item"
+    },
+    {
+      "name": "Coindiamonrep",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coindiamonrep",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/auxence_addons/recipes/coindiamonrep.json"
+        ]
+      },
+      "path": "~/Auxence Item"
     }
   ],
   "variable_elements": [],
@@ -230,9 +317,11 @@
       "entity.auxence_addons.guardia": "Guardia",
       "itemGroup.auxence_addons.npc": "NPC",
       "item.auxence_addons.coiniron": "Moneta di ferro",
+      "item.auxence_addons.coinemerald": "Copper coin",
       "item.auxence_addons.gom_gom": "Gom Gom",
       "npc.msg.jack": "benvenuto/a in Auxence!",
       "item.auxence_addons.golemdiroccia_spawn_egg": "Golem di Roccia Spawn Egg",
+      "item.auxence_addons.coingold": "Copper coin",
       "item.auxence_addons.jacksparrow_spawn_egg": "Jacksparrow Spawn Egg",
       "entity.auxence_addons.jacksparrow": "Jacksparrow",
       "entity.auxence_addons.vendor": "Vendor",
@@ -243,15 +332,18 @@
       "item.auxence_addons.guardia_spawn_egg": "Uovo di Guardia",
       "entity.auxence_addons.golemdiroccia": "Golem di Roccia",
       "itemGroup.auxence_addons.auxence_itemtab": "Oggetti Auxence",
-      "item.auxence_addons.coincopper": "Moneta di Rame"
+      "item.auxence_addons.coincopper": "Moneta di Rame",
+      "item.auxence_addons.coindiamond": "Copper coin"
     },
     "en_us": {
       "entity.auxence_addons.guardia": "Guardia",
       "itemGroup.auxence_addons.npc": "NPC",
       "item.auxence_addons.coiniron": "Iron coin",
+      "item.auxence_addons.coinemerald": "Emerald Coin",
       "item.auxence_addons.gom_gom": "Gom Gom",
       "npc.msg.jack": "welcome in Auxence!",
       "item.auxence_addons.golemdiroccia_spawn_egg": "Golem di Roccia Spawn Egg",
+      "item.auxence_addons.coingold": "Copper coin",
       "item.auxence_addons.jacksparrow_spawn_egg": "Jacksparrow Spawn Egg",
       "entity.auxence_addons.jacksparrow": "Jacksparrow",
       "entity.auxence_addons.vendor": "Vendor",
@@ -262,7 +354,8 @@
       "item.auxence_addons.guardia_spawn_egg": "Guardia Spawn Egg",
       "entity.auxence_addons.golemdiroccia": "Golem di Roccia",
       "itemGroup.auxence_addons.auxence_itemtab": "Auxence Item",
-      "item.auxence_addons.coincopper": "Copper coin"
+      "item.auxence_addons.coincopper": "Copper coin",
+      "item.auxence_addons.coindiamond": "Copper coin"
     }
   },
   "foldersRoot": {

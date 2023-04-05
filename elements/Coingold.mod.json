@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "coincoppertx",
+    "texture": "coingold",
     "customModelName": "Normal",
     "name": "Copper coin",
     "rarity": "COMMON",
@@ -25,7 +25,7 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInfo": [
-      "A copper coin"
+      "A golden coin"
     ],
     "hasGlow": false,
     "guiBoundTo": "<NONE>",
