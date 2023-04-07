@@ -1,0 +1,38 @@
+{
+  "_fv": 39,
+  "_type": "tool",
+  "definition": {
+    "renderType": 1,
+    "texture": "provascudo2",
+    "customModelName": "scudo:default",
+    "name": "Hero shield",
+    "specialInfo": [
+      "Naofumi hero shield"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:AuxenceItemtab"
+    },
+    "toolType": "Special",
+    "harvestLevel": 0,
+    "efficiency": 0.0,
+    "attackSpeed": 0.0,
+    "enchantability": 0,
+    "damageVsEntity": 0.0,
+    "usageCount": 100,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "HeroshieldRightclicked"
+    },
+    "onRightClickedOnBlock": {
+      "name": "HeroshieldRightclicked"
+    },
+    "onItemInInventoryTick": {
+      "name": "HeroshieldToolInInventoryTick"
+    }
+  }
+}

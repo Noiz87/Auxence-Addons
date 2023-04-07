@@ -308,9 +308,114 @@
         ]
       },
       "path": "~/Auxence Item"
+    },
+    {
+      "name": "Heroshield",
+      "type": "tool",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heroshield",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/auxence_addons/models/item/heroshield.json",
+          "src/main/java/net/mcreator/auxenceaddons/item/HeroshieldItem.java"
+        ]
+      },
+      "path": "~/Auxence Item"
+    },
+    {
+      "name": "Heroshieldblock",
+      "type": "tool",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heroshieldblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/auxence_addons/models/item/heroshieldblock.json",
+          "src/main/java/net/mcreator/auxenceaddons/item/HeroshieldblockItem.java"
+        ]
+      },
+      "path": "~/Auxence Item"
+    },
+    {
+      "name": "HeroshieldToolInInventoryTick",
+      "type": "procedure",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heroshield_tool_in_inventory_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/auxenceaddons/procedures/HeroshieldToolInInventoryTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Auxence Item"
+    },
+    {
+      "name": "HeroshieldRightclicked",
+      "type": "procedure",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heroshield_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/auxenceaddons/procedures/HeroshieldRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Auxence Item"
+    },
+    {
+      "name": "Heroshieldatttacked",
+      "type": "procedure",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heroshieldatttacked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/auxenceaddons/procedures/HeroshieldatttackedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Auxence Item"
     }
   ],
-  "variable_elements": [],
+  "variable_elements": [
+    {
+      "name": "Tempodoescudo",
+      "type": "number",
+      "scope": "global",
+      "value": "0"
+    }
+  ],
   "sound_elements": [],
   "language_map": {
     "it_it": {
@@ -324,9 +429,11 @@
       "item.auxence_addons.coingold": "Copper coin",
       "item.auxence_addons.jacksparrow_spawn_egg": "Jacksparrow Spawn Egg",
       "entity.auxence_addons.jacksparrow": "Jacksparrow",
+      "item.auxence_addons.heroshieldblock": "Hero shield",
       "entity.auxence_addons.vendor": "Vendor",
       "advancements.redei_pirati.descr": "Hai trovato il Frutto del Mare Gom Gom",
       "advancements.redei_pirati.title": "Diventerò il Re dei Pirati",
+      "item.auxence_addons.heroshield": "Hero shield",
       "item.auxence_addons.vendor_spawn_egg": "Vendor Spawn Egg",
       "itemGroup.auxence_addons.auxence_mobtab": "Auxence Mob",
       "item.auxence_addons.guardia_spawn_egg": "Uovo di Guardia",
@@ -346,9 +453,11 @@
       "item.auxence_addons.coingold": "Copper coin",
       "item.auxence_addons.jacksparrow_spawn_egg": "Jacksparrow Spawn Egg",
       "entity.auxence_addons.jacksparrow": "Jacksparrow",
+      "item.auxence_addons.heroshieldblock": "Hero shield",
       "entity.auxence_addons.vendor": "Vendor",
       "advancements.redei_pirati.descr": "Hai trovato il Frutto del Mare Gom Gom",
       "advancements.redei_pirati.title": "Diventerò il Re dei Pirati",
+      "item.auxence_addons.heroshield": "Hero shield",
       "item.auxence_addons.vendor_spawn_egg": "Vendor Spawn Egg",
       "itemGroup.auxence_addons.auxence_mobtab": "Auxence Mob",
       "item.auxence_addons.guardia_spawn_egg": "Guardia Spawn Egg",
@@ -379,9 +488,9 @@
     "modid": "auxence_addons",
     "modName": "Auxence Addons",
     "version": "1.0.0",
-    "author": "picci, MCreator",
+    "author": "Noiz87",
     "websiteURL": "https://mcreator.net",
-    "license": "Academic Free License v3.0",
+    "license": "GNU General Public License version 3 (GPLv3)",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
     "requiredMods": [],

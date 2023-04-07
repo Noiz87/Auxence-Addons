@@ -9,6 +9,8 @@ import net.minecraft.world.item.Item;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.core.Registry;
 
+import net.mcreator.auxenceaddons.item.HeroshieldblockItem;
+import net.mcreator.auxenceaddons.item.HeroshieldItem;
 import net.mcreator.auxenceaddons.item.GomGomItem;
 import net.mcreator.auxenceaddons.item.CoinironItem;
 import net.mcreator.auxenceaddons.item.CoingoldItem;
@@ -28,6 +30,8 @@ public class AuxenceAddonsModItems {
 	public static Item COINEMERALD;
 	public static Item COINGOLD;
 	public static Item COINDIAMOND;
+	public static Item HEROSHIELD;
+	public static Item HEROSHIELDBLOCK;
 
 	public static void load() {
 		GUARDIA_SPAWN_EGG = Registry.register(Registry.ITEM, new ResourceLocation(AuxenceAddonsMod.MODID, "guardia_spawn_egg"),
@@ -43,5 +47,7 @@ public class AuxenceAddonsModItems {
 		COINEMERALD = Registry.register(Registry.ITEM, new ResourceLocation(AuxenceAddonsMod.MODID, "coinemerald"), new CoinemeraldItem());
 		COINGOLD = Registry.register(Registry.ITEM, new ResourceLocation(AuxenceAddonsMod.MODID, "coingold"), new CoingoldItem());
 		COINDIAMOND = Registry.register(Registry.ITEM, new ResourceLocation(AuxenceAddonsMod.MODID, "coindiamond"), new CoindiamondItem());
+		HEROSHIELD = Registry.register(Registry.ITEM, new ResourceLocation(AuxenceAddonsMod.MODID, "heroshield"), new HeroshieldItem());
+		HEROSHIELDBLOCK = Registry.register(Registry.ITEM, new ResourceLocation(AuxenceAddonsMod.MODID, "heroshieldblock"), new HeroshieldblockItem());
 	}
 }
