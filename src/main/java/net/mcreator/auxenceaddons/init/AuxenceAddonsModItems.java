@@ -30,6 +30,7 @@ public class AuxenceAddonsModItems {
 	public static Item COINEMERALD;
 	public static Item COINGOLD;
 	public static Item COINDIAMOND;
+	public static Item CAPIMARIO_SPAWN_EGG;
 	public static Item HEROSHIELD;
 	public static Item HEROSHIELDBLOCK;
 
@@ -47,6 +48,8 @@ public class AuxenceAddonsModItems {
 		COINEMERALD = Registry.register(Registry.ITEM, new ResourceLocation(AuxenceAddonsMod.MODID, "coinemerald"), new CoinemeraldItem());
 		COINGOLD = Registry.register(Registry.ITEM, new ResourceLocation(AuxenceAddonsMod.MODID, "coingold"), new CoingoldItem());
 		COINDIAMOND = Registry.register(Registry.ITEM, new ResourceLocation(AuxenceAddonsMod.MODID, "coindiamond"), new CoindiamondItem());
+		CAPIMARIO_SPAWN_EGG = Registry.register(Registry.ITEM, new ResourceLocation(AuxenceAddonsMod.MODID, "capimario_spawn_egg"),
+				new SpawnEggItem(AuxenceAddonsModEntities.CAPIMARIO, -13369345, -65383, new Item.Properties().tab(AuxenceAddonsModTabs.TAB_NPC)));
 		HEROSHIELD = Registry.register(Registry.ITEM, new ResourceLocation(AuxenceAddonsMod.MODID, "heroshield"), new HeroshieldItem());
 		HEROSHIELDBLOCK = Registry.register(Registry.ITEM, new ResourceLocation(AuxenceAddonsMod.MODID, "heroshieldblock"), new HeroshieldblockItem());
 	}

@@ -27,8 +27,10 @@ public class HeroshieldRightclickedProcedure {
 		Entity entity = (Entity) dependencies.get("entity");
 		ItemStack itemstack = (ItemStack) dependencies.get("itemstack");
 		double sheildDamage = 0;
+		double ShieldDamage = 0;
+		double localShieldTimer = 0;
 		if (itemstack.getItem() == (entity instanceof LivingEntity _livEnt ? _livEnt.getOffhandItem() : ItemStack.EMPTY).getItem()) {
-			sheildDamage = (itemstack).getDamageValue();
+			ShieldDamage = (itemstack).getDamageValue();
 			if (entity instanceof LivingEntity _entity) {
 				ItemStack _setstack = new ItemStack(AuxenceAddonsModItems.HEROSHIELDBLOCK);
 				_setstack.setCount(1);
@@ -36,8 +38,7 @@ public class HeroshieldRightclickedProcedure {
 				if (_entity instanceof Player _player)
 					_player.getInventory().setChanged();
 			}
-			((entity instanceof LivingEntity _livEnt ? _livEnt.getOffhandItem() : ItemStack.EMPTY)).setDamageValue((int) sheildDamage);
-			entity.getExtraCustomData().getCompound("PlayerPersisted").putDouble("ShieldTimer", 40);
+			((entity instanceof LivingEntity _livEnt ? _livEnt.getOffhandItem() : ItemStack.EMPTY)).setDamageValue((int) ShieldDamage);
 		}
 	}
 }

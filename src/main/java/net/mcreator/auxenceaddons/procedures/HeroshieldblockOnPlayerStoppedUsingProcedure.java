@@ -11,24 +11,24 @@ import net.mcreator.auxenceaddons.AuxenceAddonsMod;
 
 import java.util.Map;
 
-public class HeroshieldToolInInventoryTickProcedure {
+public class HeroshieldblockOnPlayerStoppedUsingProcedure {
 
 	public static void execute(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
 			if (!dependencies.containsKey("entity"))
-				AuxenceAddonsMod.LOGGER.warn("Failed to load dependency entity for procedure HeroshieldToolInInventoryTick!");
+				AuxenceAddonsMod.LOGGER.warn("Failed to load dependency entity for procedure HeroshieldblockOnPlayerStoppedUsing!");
 			return;
 		}
 		if (dependencies.get("itemstack") == null) {
 			if (!dependencies.containsKey("itemstack"))
-				AuxenceAddonsMod.LOGGER.warn("Failed to load dependency itemstack for procedure HeroshieldToolInInventoryTick!");
+				AuxenceAddonsMod.LOGGER.warn("Failed to load dependency itemstack for procedure HeroshieldblockOnPlayerStoppedUsing!");
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");
 		ItemStack itemstack = (ItemStack) dependencies.get("itemstack");
 		double sheildDamage = 0;
 		double localShieldTimer = 0;
-		if (entity.getExtraCustomData().getCompound("PlayerPersisted").getDouble("ShieldTimer") == 0 && itemstack.getItem() == (entity instanceof LivingEntity _livEnt ? _livEnt.getOffhandItem() : ItemStack.EMPTY).getItem()) {
+		if (itemstack.getItem() == (entity instanceof LivingEntity _livEnt ? _livEnt.getOffhandItem() : ItemStack.EMPTY).getItem()) {
 			sheildDamage = (itemstack).getDamageValue();
 			if (entity instanceof LivingEntity _entity) {
 				ItemStack _setstack = new ItemStack(AuxenceAddonsModItems.HEROSHIELD);
@@ -38,9 +38,6 @@ public class HeroshieldToolInInventoryTickProcedure {
 					_player.getInventory().setChanged();
 			}
 			((entity instanceof LivingEntity _livEnt ? _livEnt.getOffhandItem() : ItemStack.EMPTY)).setDamageValue((int) sheildDamage);
-		} else {
-			localShieldTimer = sheildDamage - 1;
-			entity.getExtraCustomData().getCompound("PlayerPersisted").putDouble("ShieldTimer", localShieldTimer);
 		}
 	}
 }
