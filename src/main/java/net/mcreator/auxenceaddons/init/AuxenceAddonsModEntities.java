@@ -16,6 +16,7 @@ import net.mcreator.auxenceaddons.entity.JacksparrowEntity;
 import net.mcreator.auxenceaddons.entity.GuardiaEntity;
 import net.mcreator.auxenceaddons.entity.GolemdirocciaEntity;
 import net.mcreator.auxenceaddons.entity.CapimarioEntity;
+import net.mcreator.auxenceaddons.entity.CapiNoizEntity;
 import net.mcreator.auxenceaddons.AuxenceAddonsMod;
 
 import net.fabricmc.fabric.api.object.builder.v1.entity.FabricEntityTypeBuilder;
@@ -27,6 +28,7 @@ public class AuxenceAddonsModEntities {
 	public static EntityType<VendorEntity> VENDOR;
 	public static EntityType<JacksparrowEntity> JACKSPARROW;
 	public static EntityType<CapimarioEntity> CAPIMARIO;
+	public static EntityType<CapiNoizEntity> CAPI_NOIZ;
 
 	public static void load() {
 		GUARDIA = Registry.register(Registry.ENTITY_TYPE, new ResourceLocation(AuxenceAddonsMod.MODID, "guardia"),
@@ -49,6 +51,10 @@ public class AuxenceAddonsModEntities {
 				FabricEntityTypeBuilder.create(MobCategory.CREATURE, CapimarioEntity::new).dimensions(new EntityDimensions(0.6f, 1.8f, true)).fireImmune().trackRangeBlocks(64).forceTrackedVelocityUpdates(true).trackedUpdateRate(3).build());
 		CapimarioEntity.init();
 		FabricDefaultAttributeRegistry.register(CAPIMARIO, CapimarioEntity.createAttributes());
+		CAPI_NOIZ = Registry.register(Registry.ENTITY_TYPE, new ResourceLocation(AuxenceAddonsMod.MODID, "capi_noiz"),
+				FabricEntityTypeBuilder.create(MobCategory.MONSTER, CapiNoizEntity::new).dimensions(new EntityDimensions(0.6f, 1.8f, true)).trackRangeBlocks(64).forceTrackedVelocityUpdates(true).trackedUpdateRate(3).build());
+		CapiNoizEntity.init();
+		FabricDefaultAttributeRegistry.register(CAPI_NOIZ, CapiNoizEntity.createAttributes());
 	}
 
 	private static <T extends Entity> EntityType<T> createArrowEntityType(EntityType.EntityFactory<T> factory) {

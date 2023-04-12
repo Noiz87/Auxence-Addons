@@ -10,7 +10,7 @@
       "metadata": {
         "files": []
       },
-      "path": "~/Auxence Item"
+      "path": "~/Items"
     },
     {
       "name": "AuxenceMobtab",
@@ -22,7 +22,7 @@
       "metadata": {
         "files": []
       },
-      "path": "~/Auxence Boss"
+      "path": "~/Bosses"
     },
     {
       "name": "GomGom",
@@ -37,7 +37,7 @@
           "src/main/java/net/mcreator/auxenceaddons/item/GomGomItem.java"
         ]
       },
-      "path": "~/Auxence Item"
+      "path": "~/Items"
     },
     {
       "name": "RedeiPirati",
@@ -50,7 +50,7 @@
           "src/main/resources/data/auxence_addons/advancements/redei_pirati.json"
         ]
       },
-      "path": "~/Auxence Item"
+      "path": "~/Items"
     },
     {
       "name": "Guardia",
@@ -95,7 +95,7 @@
           "src/main/java/net/mcreator/auxenceaddons/client/renderer/GolemdirocciaRenderer.java"
         ]
       },
-      "path": "~/Auxence Boss"
+      "path": "~/Bosses"
     },
     {
       "name": "Vendor",
@@ -177,7 +177,7 @@
           "src/main/java/net/mcreator/auxenceaddons/item/CoincopperItem.java"
         ]
       },
-      "path": "~/Auxence Item"
+      "path": "~/Items"
     },
     {
       "name": "Coincopperrep",
@@ -191,7 +191,7 @@
           "src/main/resources/data/auxence_addons/recipes/coppercoinrecipe.json"
         ]
       },
-      "path": "~/Auxence Item"
+      "path": "~/Items"
     },
     {
       "name": "Coiniron",
@@ -206,7 +206,7 @@
           "src/main/resources/assets/auxence_addons/models/item/coiniron.json"
         ]
       },
-      "path": "~/Auxence Item"
+      "path": "~/Items"
     },
     {
       "name": "Coinironrep",
@@ -220,7 +220,7 @@
           "src/main/resources/data/auxence_addons/recipes/coinironrep.json"
         ]
       },
-      "path": "~/Auxence Item"
+      "path": "~/Items"
     },
     {
       "name": "Coinemerald",
@@ -235,7 +235,7 @@
           "src/main/java/net/mcreator/auxenceaddons/item/CoinemeraldItem.java"
         ]
       },
-      "path": "~/Auxence Item"
+      "path": "~/Items"
     },
     {
       "name": "Coinemeraldrep",
@@ -249,7 +249,7 @@
           "src/main/resources/data/auxence_addons/recipes/coinemeraldrep.json"
         ]
       },
-      "path": "~/Auxence Item"
+      "path": "~/Items"
     },
     {
       "name": "Coingold",
@@ -264,7 +264,7 @@
           "src/main/java/net/mcreator/auxenceaddons/item/CoingoldItem.java"
         ]
       },
-      "path": "~/Auxence Item"
+      "path": "~/Items"
     },
     {
       "name": "Coingoldrep",
@@ -278,7 +278,7 @@
           "src/main/resources/data/auxence_addons/recipes/coingoldrep.json"
         ]
       },
-      "path": "~/Auxence Item"
+      "path": "~/Items"
     },
     {
       "name": "Coindiamond",
@@ -293,7 +293,7 @@
           "src/main/resources/assets/auxence_addons/models/item/coindiamond.json"
         ]
       },
-      "path": "~/Auxence Item"
+      "path": "~/Items"
     },
     {
       "name": "Coindiamonrep",
@@ -307,7 +307,7 @@
           "src/main/resources/data/auxence_addons/recipes/coindiamonrep.json"
         ]
       },
-      "path": "~/Auxence Item"
+      "path": "~/Items"
     },
     {
       "name": "Capimario",
@@ -338,27 +338,12 @@
           "src/main/java/net/mcreator/auxenceaddons/item/HeroshieldItem.java"
         ]
       },
-      "path": "~/Auxence Item"
-    },
-    {
-      "name": "Heroshieldblock",
-      "type": "item",
-      "sortid": 37,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "heroshieldblock",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/auxence_addons/models/item/heroshieldblock.json",
-          "src/main/java/net/mcreator/auxenceaddons/item/HeroshieldblockItem.java"
-        ]
-      },
-      "path": "~/Auxence Item"
+      "path": "~/Items"
     },
     {
       "name": "HeroshieldRightclicked",
       "type": "procedure",
-      "sortid": 38,
+      "sortid": 25,
       "compiles": true,
       "locked_code": false,
       "registry_name": "heroshield_rightclicked",
@@ -370,81 +355,121 @@
           {
             "name": "entity",
             "type": "entity"
-          },
-          {
-            "name": "itemstack",
-            "type": "itemstack"
           }
         ]
       },
-      "path": "~/Auxence Item"
+      "path": "~/Items"
     },
     {
-      "name": "HeroshieldblockOnPlayerStoppedUsing",
-      "type": "procedure",
-      "sortid": 39,
+      "name": "HeroShieldBlock",
+      "type": "item",
+      "sortid": 26,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "heroshieldblock_on_player_stopped_using",
+      "registry_name": "hero_shield_block",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/auxenceaddons/procedures/HeroshieldblockOnPlayerStoppedUsingProcedure.java"
+          "src/main/resources/assets/auxence_addons/models/item/hero_shield_block.json",
+          "src/main/java/net/mcreator/auxenceaddons/item/HeroShieldBlockItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "HeroShieldBlockOnPlayerStoppedUsing",
+      "type": "procedure",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hero_shield_block_on_player_stopped_using",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/auxenceaddons/procedures/HeroShieldBlockOnPlayerStoppedUsingProcedure.java"
         ],
         "dependencies": [
           {
             "name": "entity",
             "type": "entity"
-          },
-          {
-            "name": "itemstack",
-            "type": "itemstack"
           }
         ]
       },
-      "path": "~/Auxence Item"
+      "path": "~/Items"
     },
     {
-      "name": "HeroshieldRightclickedOnBlock",
-      "type": "procedure",
-      "sortid": 40,
+      "name": "Discord",
+      "type": "command",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "heroshield_rightclicked_on_block",
+      "registry_name": "discord",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/auxenceaddons/procedures/HeroshieldRightclickedOnBlockProcedure.java"
-        ],
-        "dependencies": []
+          "src/main/java/net/mcreator/auxenceaddons/command/DiscordCommand.java"
+        ]
       },
-      "path": "~/Auxence Item"
-    }
-  ],
-  "variable_elements": [
-    {
-      "name": "ShieldTick",
-      "type": "number",
-      "scope": "global",
-      "value": "0"
+      "path": "~/Various"
     },
     {
-      "name": "ShieldValue",
-      "type": "number",
-      "scope": "global",
-      "value": "0"
+      "name": "Discordmsg",
+      "type": "procedure",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "discordmsg",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/auxenceaddons/procedures/DiscordmsgProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Various"
     },
     {
-      "name": "Tempodoescudo",
-      "type": "number",
-      "scope": "global",
-      "value": "0"
+      "name": "CapiNoiz",
+      "type": "livingentity",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "capi_noiz",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/auxenceaddons/entity/CapiNoizEntity.java",
+          "src/main/java/net/mcreator/auxenceaddons/client/renderer/CapiNoizRenderer.java",
+          "src/main/resources/assets/auxence_addons/models/item/capi_noiz_spawn_egg.json"
+        ]
+      },
+      "path": "~/NPC"
+    },
+    {
+      "name": "Guardblock",
+      "type": "block",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "guardblock",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/auxenceaddons/block/GuardblockBlock.java",
+          "src/main/resources/assets/auxence_addons/blockstates/guardblock.json",
+          "src/main/resources/assets/auxence_addons/models/block/guardblock.json",
+          "src/main/resources/assets/auxence_addons/models/item/guardblock.json"
+        ]
+      },
+      "path": "~/NPC"
     }
   ],
+  "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "it_it": {
       "entity.auxence_addons.guardia": "Guardia",
       "itemGroup.auxence_addons.npc": "NPC",
       "item.auxence_addons.coiniron": "Moneta di ferro",
+      "entity.auxence_addons.capi_noiz": "Noiz87",
       "npc.msg.jack": "benvenuto/a in Auxence!",
       "item.auxence_addons.golemdiroccia_spawn_egg": "Uovo di Golem di Roccia",
       "item.auxence_addons.jacksparrow_spawn_egg": "Jacksparrow Spawn Egg",
@@ -455,24 +480,27 @@
       "item.auxence_addons.guardia_spawn_egg": "Uovo di Guardia",
       "item.auxence_addons.capimario_spawn_egg": "Mario Spawn Egg",
       "entity.auxence_addons.golemdiroccia": "Golem di Roccia",
+      "item.auxence_addons.hero_shield_block": "Scudo dell\u0027eroe",
       "itemGroup.auxence_addons.auxence_itemtab": "Oggetti Auxence",
-      "item.auxence_addons.coindiamond": "Moneta di Diamante",
+      "item.auxence_addons.coindiamond": "Moneta di diamante",
       "item.auxence_addons.coinemerald": "Moneta di smeraldo",
       "item.auxence_addons.gom_gom": "Gom Gom",
       "item.auxence_addons.coingold": "Moneta d\u0027\u0027oro",
-      "item.auxence_addons.heroshieldblock": "Hero shield",
       "advancements.redei_pirati.descr": "Hai trovato il Frutto del Mare Gom Gom",
       "advancements.redei_pirati.title": "Diventerò il Re dei Pirati",
-      "item.auxence_addons.heroshield": "Hero shield",
-      "item.auxence_addons.vendor_spawn_egg": "Uovo di Venditore",
+      "item.auxence_addons.heroshield": "Scudo dell\u0027eroe",
+      "block.auxence_addons.guardblock": "Guardblock",
+      "item.auxence_addons.vendor_spawn_egg": "Uovo di venditore",
+      "item.auxence_addons.capi_noiz_spawn_egg": "Noiz87 Spawn Egg",
       "item.auxence_addons.coincopper": "Moneta di Rame"
     },
     "en_us": {
       "entity.auxence_addons.guardia": "Guardia",
       "itemGroup.auxence_addons.npc": "NPC",
       "item.auxence_addons.coiniron": "Iron coin",
-      "npc.msg.jack": "welcome in Auxence!",
+      "entity.auxence_addons.capi_noiz": "Noiz87",
       "item.auxence_addons.golemdiroccia_spawn_egg": "Golem di Roccia Spawn Egg",
+      "npc.msg.jack": "welcome in Auxence!",
       "item.auxence_addons.jacksparrow_spawn_egg": "Jacksparrow Spawn Egg",
       "entity.auxence_addons.jacksparrow": "Jacksparrow",
       "entity.auxence_addons.vendor": "Vendor",
@@ -481,16 +509,18 @@
       "item.auxence_addons.guardia_spawn_egg": "Guardia Spawn Egg",
       "item.auxence_addons.capimario_spawn_egg": "Mario Spawn Egg",
       "entity.auxence_addons.golemdiroccia": "Golem di Roccia",
+      "item.auxence_addons.hero_shield_block": "Hero Shield",
       "itemGroup.auxence_addons.auxence_itemtab": "Auxence Item",
       "item.auxence_addons.coindiamond": "Copper coin",
       "item.auxence_addons.coinemerald": "Emerald Coin",
       "item.auxence_addons.gom_gom": "Gom Gom",
       "item.auxence_addons.coingold": "Copper coin",
-      "item.auxence_addons.heroshieldblock": "Hero shield",
       "advancements.redei_pirati.descr": "Hai trovato il Frutto del Mare Gom Gom",
       "advancements.redei_pirati.title": "Diventerò il Re dei Pirati",
-      "item.auxence_addons.heroshield": "Hero shield",
+      "item.auxence_addons.heroshield": "Hero Shield",
+      "block.auxence_addons.guardblock": "Guardblock",
       "item.auxence_addons.vendor_spawn_egg": "Vendor Spawn Egg",
+      "item.auxence_addons.capi_noiz_spawn_egg": "Noiz87 Spawn Egg",
       "item.auxence_addons.coincopper": "Copper coin"
     }
   },
@@ -498,15 +528,19 @@
     "name": "~",
     "children": [
       {
-        "name": "Auxence Boss",
+        "name": "Bosses",
         "children": []
       },
       {
-        "name": "Auxence Item",
+        "name": "Items",
         "children": []
       },
       {
         "name": "NPC",
+        "children": []
+      },
+      {
+        "name": "Various",
         "children": []
       }
     ]

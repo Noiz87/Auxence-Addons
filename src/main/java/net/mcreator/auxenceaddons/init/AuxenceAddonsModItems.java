@@ -6,11 +6,12 @@ package net.mcreator.auxenceaddons.init;
 
 import net.minecraft.world.item.SpawnEggItem;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.BlockItem;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.core.Registry;
 
-import net.mcreator.auxenceaddons.item.HeroshieldblockItem;
 import net.mcreator.auxenceaddons.item.HeroshieldItem;
+import net.mcreator.auxenceaddons.item.HeroShieldBlockItem;
 import net.mcreator.auxenceaddons.item.GomGomItem;
 import net.mcreator.auxenceaddons.item.CoinironItem;
 import net.mcreator.auxenceaddons.item.CoingoldItem;
@@ -32,7 +33,9 @@ public class AuxenceAddonsModItems {
 	public static Item COINDIAMOND;
 	public static Item CAPIMARIO_SPAWN_EGG;
 	public static Item HEROSHIELD;
-	public static Item HEROSHIELDBLOCK;
+	public static Item HERO_SHIELD_BLOCK;
+	public static Item CAPI_NOIZ_SPAWN_EGG;
+	public static Item GUARDBLOCK;
 
 	public static void load() {
 		GUARDIA_SPAWN_EGG = Registry.register(Registry.ITEM, new ResourceLocation(AuxenceAddonsMod.MODID, "guardia_spawn_egg"),
@@ -51,6 +54,9 @@ public class AuxenceAddonsModItems {
 		CAPIMARIO_SPAWN_EGG = Registry.register(Registry.ITEM, new ResourceLocation(AuxenceAddonsMod.MODID, "capimario_spawn_egg"),
 				new SpawnEggItem(AuxenceAddonsModEntities.CAPIMARIO, -13369345, -65383, new Item.Properties().tab(AuxenceAddonsModTabs.TAB_NPC)));
 		HEROSHIELD = Registry.register(Registry.ITEM, new ResourceLocation(AuxenceAddonsMod.MODID, "heroshield"), new HeroshieldItem());
-		HEROSHIELDBLOCK = Registry.register(Registry.ITEM, new ResourceLocation(AuxenceAddonsMod.MODID, "heroshieldblock"), new HeroshieldblockItem());
+		HERO_SHIELD_BLOCK = Registry.register(Registry.ITEM, new ResourceLocation(AuxenceAddonsMod.MODID, "hero_shield_block"), new HeroShieldBlockItem());
+		CAPI_NOIZ_SPAWN_EGG = Registry.register(Registry.ITEM, new ResourceLocation(AuxenceAddonsMod.MODID, "capi_noiz_spawn_egg"),
+				new SpawnEggItem(AuxenceAddonsModEntities.CAPI_NOIZ, -1, -1, new Item.Properties().tab(AuxenceAddonsModTabs.TAB_NPC)));
+		GUARDBLOCK = Registry.register(Registry.ITEM, new ResourceLocation(AuxenceAddonsMod.MODID, "guardblock"), new BlockItem(AuxenceAddonsModBlocks.GUARDBLOCK, new Item.Properties().tab(AuxenceAddonsModTabs.TAB_AUXENCE_ITEMTAB)));
 	}
 }

@@ -4,15 +4,15 @@
   "definition": {
     "renderType": 1,
     "texture": "provascudo2",
-    "customModelName": "heroshield:default",
-    "name": "Hero shield",
+    "customModelName": "heroshieldblock:default",
+    "name": "Hero Shield",
     "rarity": "EPIC",
     "creativeTab": {
-      "value": "CUSTOM:AuxenceItemtab"
+      "value": "No creative tab entry"
     },
     "stackSize": 1,
     "enchantability": 0,
-    "useDuration": 9999,
+    "useDuration": 0,
     "toolType": 1.0,
     "damageCount": 0,
     "recipeRemainder": {
@@ -22,15 +22,17 @@
     "immuneToFire": false,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
-    "enableMeleeDamage": false,
-    "damageVsEntity": 0.0,
-    "specialInfo": [],
+    "enableMeleeDamage": true,
+    "damageVsEntity": 1.0,
+    "specialInfo": [
+      "Naofumi Hero shield"
+    ],
     "hasGlow": false,
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
     "onStoppedUsing": {
-      "name": "HeroshieldblockOnPlayerStoppedUsing"
+      "name": "HeroShieldBlockOnPlayerStoppedUsing"
     },
     "isFood": true,
     "nutritionalValue": 0,

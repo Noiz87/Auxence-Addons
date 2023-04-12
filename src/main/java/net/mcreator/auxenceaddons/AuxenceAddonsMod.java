@@ -23,6 +23,8 @@ import net.mcreator.auxenceaddons.init.AuxenceAddonsModTabs;
 import net.mcreator.auxenceaddons.init.AuxenceAddonsModProcedures;
 import net.mcreator.auxenceaddons.init.AuxenceAddonsModItems;
 import net.mcreator.auxenceaddons.init.AuxenceAddonsModEntities;
+import net.mcreator.auxenceaddons.init.AuxenceAddonsModCommands;
+import net.mcreator.auxenceaddons.init.AuxenceAddonsModBlocks;
 
 import net.fabricmc.fabric.api.networking.v1.ServerPlayConnectionEvents;
 import net.fabricmc.api.ModInitializer;
@@ -37,10 +39,11 @@ public class AuxenceAddonsMod implements ModInitializer {
 		AuxenceAddonsModTabs.load();
 
 		AuxenceAddonsModEntities.load();
-
+		AuxenceAddonsModBlocks.load();
 		AuxenceAddonsModItems.load();
 
 		AuxenceAddonsModProcedures.load();
+		AuxenceAddonsModCommands.load();
 
 		GeckoLib.initialize();
 		ServerPlayConnectionEvents.JOIN.register((handler, sender, server) -> {

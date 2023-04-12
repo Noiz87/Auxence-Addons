@@ -14,6 +14,7 @@ package net.mcreator.auxenceaddons;
 
 import net.mcreator.auxenceaddons.init.AuxenceAddonsModModels;
 import net.mcreator.auxenceaddons.init.AuxenceAddonsModEntityRenderers;
+import net.mcreator.auxenceaddons.init.AuxenceAddonsModBlocks;
 
 import net.fabricmc.api.Environment;
 import net.fabricmc.api.EnvType;
@@ -23,6 +24,8 @@ import net.fabricmc.api.ClientModInitializer;
 public class ClientInit implements ClientModInitializer {
 	@Override
 	public void onInitializeClient() {
+
+		AuxenceAddonsModBlocks.clientLoad();
 
 		AuxenceAddonsModModels.load();
 		AuxenceAddonsModEntityRenderers.load();

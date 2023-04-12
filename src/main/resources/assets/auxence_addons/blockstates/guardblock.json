@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "auxence_addons:block/guardblock"
+    }
+  }
+}

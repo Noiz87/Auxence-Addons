@@ -5,14 +5,14 @@
     "renderType": 1,
     "texture": "provascudo2",
     "customModelName": "heroshield:default",
-    "name": "Hero shield",
+    "name": "Hero Shield",
     "rarity": "EPIC",
     "creativeTab": {
       "value": "CUSTOM:AuxenceItemtab"
     },
     "stackSize": 1,
     "enchantability": 0,
-    "useDuration": 9999,
+    "useDuration": 0,
     "toolType": 1.0,
     "damageCount": 0,
     "recipeRemainder": {
@@ -22,9 +22,11 @@
     "immuneToFire": false,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
-    "enableMeleeDamage": false,
-    "damageVsEntity": 0.0,
-    "specialInfo": [],
+    "enableMeleeDamage": true,
+    "damageVsEntity": 1.0,
+    "specialInfo": [
+      "Naofumi Hero shield"
+    ],
     "hasGlow": false,
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
@@ -32,14 +34,17 @@
     "onRightClickedInAir": {
       "name": "HeroshieldRightclicked"
     },
+    "onRightClickedOnBlock": {
+      "name": "HeroshieldRightclicked"
+    },
     "isFood": false,
-    "nutritionalValue": 0,
-    "saturation": 0.0,
+    "nutritionalValue": 4,
+    "saturation": 0.3,
     "eatResultItem": {
       "value": ""
     },
     "isMeat": false,
-    "isAlwaysEdible": true,
-    "animation": "bow"
+    "isAlwaysEdible": false,
+    "animation": "none"
   }
 }

@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "auxence_addons:blocks/guardblocktx",
+    "particle": "auxence_addons:blocks/guardblocktx"
+  }
+}
